@@ -62,3 +62,50 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+
+
+
+
+
+
+
+Follow the steps to execute the application:
+
+Update the database credentials in .env file: This involves editing the .env file in your Laravel project directory to include the correct credentials for your database. You'll typically find placeholders like DB_HOST, DB_DATABASE, DB_USERNAME, and DB_PASSWORD in this file. Replace them with your actual database information.
+
+Install Dependencies: 
+
+
+cmd  : composer install 
+
+////   This command installs all the dependencies listed in your composer.json file.
+composer require laravel/ui
+//   This command installs the Laravel user interface package, which provides the necessary tools for front-end scaffolding.
+
+cmd  : composer require "darry/decode/cart"
+ //This command installs the darry/decode/cart package via Composer.
+
+
+Create Storage Symbolic Link:
+
+
+
+php artisan storage:link
+//  This command creates a symbolic link from public/storage to storage/app/public. This allows files uploaded to storage/app/public to be accessed from the web.
+
+
+Run Migrations: 
+
+cmd  : php artisan migrate
+// This command runs any outstanding migrations. Migrations are used for managing database schema changes in Laravel. 
+
+Start the Development Server:
+
+cmd  : php artisan serve 
+
+//This command starts the Laravel development server, allowing you to run your application locally.
