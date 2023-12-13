@@ -181,7 +181,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'krishna','krishna@gmail.com',NULL,'$2y$10$7eNFNtWsRyItLQLFxP7mq.DN/JPjj//6ddcEsxK4oLQvxht6reQRu',NULL,'2023-12-11 23:35:21','2023-12-11 23:35:21');
+INSERT INTO `users` VALUES (1,'krishna','krishna@gmail.com',NULL,'$2y$10$7eNFNtWsRyItLQLFxP7mq.DN/JPjj//6ddcEsxK4oLQvxht6reQRu',NULL,'2023-12-12 23:35:21','2023-12-12 23:35:21');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
