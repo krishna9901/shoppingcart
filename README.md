@@ -98,7 +98,10 @@ Install Dependencies:
 cmd  : composer install 
 
 ////   This command installs all the dependencies listed in your composer.json file.
-composer require laravel/ui
+
+
+
+cmd  : composer require laravel/ui
 //   This command installs the Laravel user interface package, which provides the necessary tools for front-end scaffolding.
 
 cmd  : composer require "darry/decode/cart"
